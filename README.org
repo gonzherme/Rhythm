@@ -1,6 +1,17 @@
-** *Welcome to Rhythm!*
+#+OPTIONS: toc:2
 
-_Description_: Rhythm is an application devoted to aiding runners in maintaining a desired pace through the music they listen to.
+** Table of Contents :toc:
+  - [[#about-the-project][About The Project]]
+  - [[#built-with][Built With]]
+  - [[#sources-consulted-and-citations][Sources Consulted and Citations]]
+
+** About The Project
+- Rhythm is an application developed in Python devoted to aiding runners in maintaining a desired pace through the music they listen to.
+
+- You can set a distance you'd like to run, along with a target time you want to . Rhythm will changes the beats per minute of the songs on your playlist to match the steps per minute
+
+- All you have to do is follow the song's rhythm with your footsteps!
+  
 
 _Modes_: there are two available modes the user can use
 
@@ -8,17 +19,14 @@ _Modes_: there are two available modes the user can use
 
     /Adaptive/: the user runs at his/her own pace, which Rhythm will detect, and will ensuingly play songs in the playlist to match the user's running pace
 
-    
-_How to use Rhythm_:
-    Press 'Space' to simulate each step of your run
-    Use the 'Left' and 'Right' arrows to move your avatar
-    Click on one of Rhythm's modes: 'Set Goal' or 'Adaptive'
-
-
-_Required modules_:
-     Audio: pydub, scipy.io, subprocess, librosa
-     Graphics: PIL, CMU 112 graphics, tkinter
-     Miscellaneous: random, os, math, time
+** Built With
+- Python
+- [[https://librosa.org/doc/latest/index.html][Librosa]] /Machine Learning bpm analysis package/
+- [[https://pypi.org/project/pydub/][Pydub]] /Audio Manipulation/
+- [[https://scipy.org/][Scipy]]
+- CMU 112 Graphics
+- [[https://pypi.org/project/pillow/][PIL]]
+- [[https://docs.python.org/3/library/tkinter.html][Tkinter]]
 
 
 ** Sources Consulted and Citations
