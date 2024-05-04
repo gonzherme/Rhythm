@@ -1,0 +1,23 @@
+*Welcome to Rhythm!*
+
+_Description_: Rhythm is an application devoted to aiding runners in maintaining a desired pace through the music they listen to.
+
+_Modes_: there are two available modes the user can use
+
+    /Set Goal/: the user enters his/her height, distance goal for the run, as well as time goal for the run. Rhythm will calculate the pace of the steps that the user will have to take while running to be able to meet the deesired goal. Then, it will speed up or slow down each song in the user's playlist in order to match it with the pace at which the user has to run.
+
+    /Adaptive/: the user runs at his/her own pace, which Rhythm will detect, and will ensuingly play songs in the playlist to match the user's running pace
+
+    
+_How to use Rhythm_:
+    Press 'Space' to simulate each step of your run
+    Use the 'Left' and 'Right' arrows to move your avatar
+    Click on one of Rhythm's modes: 'Set Goal' or 'Adaptive'
+
+
+_Required modules_:
+     Audio: pydub, scipy.io, subprocess, librosa
+     Graphics: PIL, CMU 112 graphics, tkinter
+     Miscellaneous: random, os, math, time
+
+    
