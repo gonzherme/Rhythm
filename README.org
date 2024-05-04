@@ -1,10 +1,3 @@
-#+OPTIONS: toc:2
-
-** Table of Contents :toc:
-  - [[#about-the-project][About The Project]]
-  - [[#built-with][Built With]]
-  - [[#sources-consulted-and-citations][Sources Consulted and Citations]]
-
 ** About The Project
 - Rhythm is an application developed in Python devoted to aiding runners in maintaining a desired pace through the music they listen to.
 
