@@ -1,4 +1,4 @@
-** About The Project
+*** About The Project
 - Rhythm is an application developed in Python devoted to aiding runners in maintaining a desired pace through the music they listen to.
 
 - You can set a distance you'd like to run, along with a target time you want to . Rhythm will changes the beats per minute of the songs on your playlist to match the steps per minute
@@ -6,13 +6,7 @@
 - All you have to do is follow the song's rhythm with your footsteps!
   
 
-_Modes_: there are two available modes the user can use
-
-    /Set Goal/: the user enters his/her height, distance goal for the run, as well as time goal for the run. Rhythm will calculate the pace of the steps that the user will have to take while running to be able to meet the deesired goal. Then, it will speed up or slow down each song in the user's playlist in order to match it with the pace at which the user has to run.
-
-    /Adaptive/: the user runs at his/her own pace, which Rhythm will detect, and will ensuingly play songs in the playlist to match the user's running pace
-
-** Built With
+*** Built With
 - Python
 - [[https://librosa.org/doc/latest/index.html][Librosa]] /Machine Learning bpm analysis package/
 - [[https://pypi.org/project/pydub/][Pydub]] /Audio Manipulation/
@@ -22,7 +16,7 @@ _Modes_: there are two available modes the user can use
 - [[https://docs.python.org/3/library/tkinter.html][Tkinter]]
 
 
-** Sources Consulted and Citations
+*** Sources Consulted and Citations
 
 - Audio files obtained from [[https://pixabay.com/music/search/wav/][Pixabay]]
 - Columbia Electrical Engineering; [[https://www.ee.columbia.edu/~dpwe/sounds/music/africa-toto.wav][Africa-Toto.wav]]
