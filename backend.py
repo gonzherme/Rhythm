@@ -1,24 +1,11 @@
-from pydub import AudioSegment # to play an audio file
 from pydub.playback import play # to play an audio file
 from scipy.io import wavfile
 from tkinter import *
 from random import randint, shuffle
 import subprocess, threading, time
 import librosa # audio file management
-import os # to get names of files in a directory
+import os
 from math import sqrt
-
-
-# CITING MULTIMEDIA USED
-# Music citation: all .wav files obtained from https://pixabay.com/music/search/wav/
-# https://www.ee.columbia.edu/~dpwe/sounds/music/africa-toto.wav
-
-# Gif citation: https://giphy.com/nocopyrightsounds
-
-# Sky image citation: 
-# https://wallhere.com/en/wallpaper/113569
-
-
 
 
 # Song playlist initialization

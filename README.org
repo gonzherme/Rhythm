@@ -1,4 +1,4 @@
-*Welcome to Rhythm!*
+* *Welcome to Rhythm!*
 
 _Description_: Rhythm is an application devoted to aiding runners in maintaining a desired pace through the music they listen to.
 
@@ -20,4 +20,10 @@ _Required modules_:
      Graphics: PIL, CMU 112 graphics, tkinter
      Miscellaneous: random, os, math, time
 
-    
+
+* Sources Consulted and Citations
+
+- Audio files obtained from [[https://pixabay.com/music/search/wav/][Pixabay]]
+- Columbia Electrical Engineering; [[https://www.ee.columbia.edu/~dpwe/sounds/music/africa-toto.wav][Africa-Toto.wav]]
+- Home Page Animation; [[https://giphy.com/nocopyrightsounds][NCS Gif]]
+- In-game background image from [[https://wallhere.com/en/wallpaper/113569][Wallhere]]
