@@ -745,4 +745,3 @@ class CoinCenter(CoinLeft): # we only need to change 'move' function to move wit
 
             
 #####################################################################
-
