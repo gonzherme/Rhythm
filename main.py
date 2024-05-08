@@ -1,8 +1,3 @@
-
-
-
-
-
 # * Main: Run Program
 def appStarted(app):
     app.TESTX = app.width/4
